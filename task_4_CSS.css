@@ -1,0 +1,30 @@
+body {
+    font-family:cursive;
+    color: rgb(218, 21, 142);
+    background-image: url(https://p4.wallpaperbetter.com/wallpaper/155/653/275/background-sky-point-light-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    width: 100wh;
+    height: 70vh;
+    text-align: center;
+    padding: 20px;
+}
+
+#container {
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor:pointer;
+}
+#area {
+    width: 500px;
+    height: 300px;
+    margin:0 auto;
+    background-color: white;
+    border: 5px solid #ac81f3;
+    border-radius: 700px;
+}

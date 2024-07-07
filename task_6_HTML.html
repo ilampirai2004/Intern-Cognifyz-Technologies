@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CLIENT SIDE VALIDATION</title>
+    <link rel="stylesheet" href="task_6_CSS.css">
+</head>
+<body>
+    <h1>CLIENT VALIDATION FORM</h1>
+    <div id="data-container"></div>
+
+    <h2>Contact Us</h2>
+    <form id="contact-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        
+        <button type="submit">Submit</button>
+        
+        <div id="form-errors"></div>
+    </form>
+
+    <script src="task_6_JS.js"></script>
+</body>
+</html>
